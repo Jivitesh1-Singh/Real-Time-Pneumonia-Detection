@@ -1,0 +1,4 @@
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?
+
+The dataset attached is a reduced version of the original dataset. 
+Due to file size limit, the attached dataset is of reduced size.

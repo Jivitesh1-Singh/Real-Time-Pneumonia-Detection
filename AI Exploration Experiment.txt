@@ -1,0 +1,11 @@
+Objective
+
+The objective of this module is to understand the behavior and robustness of the trained CNN model by testing it with unexpected, real-world, and modified input images.
+
+Experiment and Observations
+
+The model was tested using unexpected inputs such as non-medical images, where it produced unstable or incorrect predictions, indicating its dependence on domain-specific features. Real-world chest X-ray images from external sources were also tested, and the model demonstrated reasonable generalization with minor variations in prediction confidence due to differences in image quality. Further, small input modifications such as resizing, blurring, and adding noise resulted in changes in prediction confidence and, in some cases, the predicted class. This highlights the sensitivity of deep learning models to input quality and visual variations.
+
+Conclusion
+
+These experiments reveal that the CNN model performs best on data similar to its training distribution and is sensitive to input quality and variations. The study emphasizes the importance of robust preprocessing and careful validation when deploying deep learning models in real-time healthcare applications.
